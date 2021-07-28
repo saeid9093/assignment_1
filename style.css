@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 65px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h4{
+    font-size: 22px;
+}
+
+p{
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    color: #5E6270;
+    line-height: 28px;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 30px;
+    background-image: linear-gradient(90deg, #fa944a, #FE4A2F);
+    box-shadow: 0px 0px 5px 0px #fe4a2f;
+}
+
+.button:hover{
+    background-image: linear-gradient(90deg, #FE4A2F, #fa944a);
+}
+
+/*Header Section starts Here*/
+.header_section{
+    display: flex;
+    
+}
+
+.logo{
+    width: 50%;
+}
+
+.logo img{
+    width: 130px;
+}
+
+.menu {
+    width: 70%;
+    margin-top: 23px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px 35px;
+    color: #D1272A;
+    font-size: 19px;
+}
+
+.menu ul li a:hover{
+    color: #79AF3F;
+}
+/*Header Section Ends Here*/
+
+
+
+/*Hero Section Starts Here*/
+.hero_section{
+    display: flex;
+    align-items: center;
+}
+
+.hero_left{
+    width: 50%;
+}
+
+.hero_left h1 span{
+    color: #FC9151;
+}
+
+.hero_left p{
+    margin: 60px 0;
+}
+
+.hero_right{
+    width: 50%;
+}
+/*Hero Section Ends Here*/
+
+
+/*Diet Section Starts Here*/
+.diet{
+    background-image: url(images/diet_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.diet_section{
+    display: flex;
+    align-items: center;
+}
+
+.diet_left{
+    width: 50%;
+}
+
+.diet_left img{
+    max-width: 270px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.diet_right{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.diet_right p {
+    margin: 50px 0 90px;
+}
+
+.diet_button{
+    margin-top: 50px;
+}
+/*Diet Section Ends Here*/
+
+
+
+/*Receipe Section Starts Here*/
+.receipe_section{
+    padding: 100px 0;
+}
+
+.receipe_section h2{
+    text-align: center; 
+}
+
+.receipe_section spam{
+    color: #FC9151;
+}
+
+.receipe_info p {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.receipes_area{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.singel_receipe{
+    width: 33%;
+    margin: 2%;
+    background: #fff;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.438);
+    padding: 10px;
+    border-radius: 10px;
+}
+.singel_receipe img{
+    width: 100%;
+}
+
+.singel_receipe h4{
+    margin: 20px 0;
+}
+
+.singel_receipe p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+/*Receipe Section Ends Here*/
+
+
+/*Statistics Section Starts Here*/
+.stat{
+    padding: 0 0 40px 0;
+}
+.stat_section{
+    display: flex;
+    justify-content: center;
+    box-shadow:0px 0px 9px 0px rgba(0, 0, 0, 0.6); 
+    border-radius: 15px;
+    padding: 30px 0;
+}
+.single_stat{
+    margin: 20px 100px;
+}
+/*Statistics Section Ends Here*/
+
+/*Diet Blog Section Starts Here*/
+.blog{
+    padding: 100px 0;
+}
+.blog_head h2{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.blog_head h2 span{
+    color: #FC9151;
+}
+.diet_section{
+    display: flex;
+    justify-content: center;
+}
+
+.single_diet{
+    width: 25%;
+    margin: 2%;
+}
+
+.single_diet p{
+    margin: 30px 0;
+}
+
+.single_diet a:hover{
+    color:#FC9151;
+}
+/*Diet Blog Section Ends Here*/
+
+
+/*Footer Section Ends Here*/
+footer{
+    background: #000;
+    padding: 50px 0;
+}
+.footer_section{
+    text-align: center; 
+}
+
+.footer_section h3{
+    font-size: 24px;
+    color: #fff;
+    margin: 20px 0;
+}
+.footer_section h3 span{
+    color:#FC9151;
+}
+.footer_section p{
+    color: #fff;
+    font-size: 17px;
+}
+/*Footer Section Ends Here*/
